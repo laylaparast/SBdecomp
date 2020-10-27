@@ -1,0 +1,6 @@
+importFrom(stats, bw.nrd, glm, predict, dnorm, as.formula, weighted.mean, binomial, sd, lm, t.test, confint)
+importFrom(twang, ps, get.weights, bal.table, dx.wts)
+importFrom(graphics, barplot)
+importFrom(survey, svydesign, svyglm)
+
+exportPattern("^[[:alpha:]]+")
